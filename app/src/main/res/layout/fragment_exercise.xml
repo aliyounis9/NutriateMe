@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#000000"
+    tools:context=".ui.exercise.ExerciseFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            >
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="156dp"
+            android:id="@+id/chest_ex"
+            android:background="@drawable/chest"
+            />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="C h e s t "
+        android:background="#92000000"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/arial"
+        />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:layout_marginTop="12dp"
+            >
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="156dp"
+                android:id="@+id/back_ex"
+                android:background="@drawable/back"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:text="B a c k "
+                android:background="#92000000"
+                android:textColor="#FFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/arial"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:layout_marginTop="12dp"
+            >
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="156dp"
+                android:id="@+id/shoulder_ex"
+                android:background="@drawable/shoulders"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:text="S h o u l d e r s"
+                android:background="#92000000"
+                android:textColor="#FFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/arial"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:layout_marginTop="12dp"
+            >
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="156dp"
+                android:id="@+id/arm_ex"
+                android:background="@drawable/arm"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:text="A r m s"
+                android:background="#92000000"
+                android:textColor="#FFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/arial"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:layout_marginTop="12dp"
+            >
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="156dp"
+                android:id="@+id/abs_ex"
+                android:background="@drawable/abs"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:text="A b s"
+                android:background="#92000000"
+                android:textColor="#FFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/arial"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:layout_marginTop="12dp"
+            >
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="156dp"
+                android:id="@+id/leg_ex"
+                android:background="@drawable/legs"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:text="L e g s "
+                android:background="#92000000"
+                android:textColor="#FFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/arial"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

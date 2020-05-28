@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Carbohydrates"
+            android:title="Carbohydrates" />
+        <item
+            android:id="@+id/nav_Proteins"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_Nuts"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_Spices"
+            android:title="Spices" />
+
+        <item
+            android:id="@+id/nav_Legumes"
+            android:title="Legumes" />
+        <item
+            android:id="@+id/nav_Fruits"
+            android:title="Fruits" />
+
+        ></group>
+
+
+
+</menu>

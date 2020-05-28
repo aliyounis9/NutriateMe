@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_carbohydrates"
+            android:title="Carbohydrates" />
+        <item
+            android:id="@+id/nav_proteins"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_nuts"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_spices"
+            android:title="Spices" />
+
+        <item
+            android:id="@+id/nav_legumes"
+            android:title="Legumes" />
+        <item
+            android:id="@+id/nav_fruits"
+            android:title="Fruits" />
+        <item
+            android:id="@+id/nav_sweets"
+            android:title="Sweets" />
+        <item
+            android:id="@+id/nav_diary"
+            android:title="Diary" />
+        <item
+            android:id="@+id/nav_strachy"
+            android:title="Strachy Vegetables" />
+        <item
+            android:id="@+id/nav_cereals"
+            android:title="Cereals" />
+        <item
+            android:id="@+id/nav_exercise"
+            android:title="Exercises" />
+
+
+        ></group>
+
+</menu>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.Malnutrition.ProblemOfMalnutrition.ui.Home.NavHomeFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_nav_home" />
+
+    <fragment
+        android:id="@+id/nav_carbohydrates"
+        android:name="com.Malnutrition.ProblemOfMalnutrition.ui.carbohydrates.CarbohydratesFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_carbohydrates" />
+
+    <fragment
+        android:id="@+id/nav_proteins"
+        android:name="com.Malnutrition.ProblemOfMalnutrition.ui.proteins.ProteinsFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_proteins" />
+
+    <fragment
+        android:id="@+id/nav_nuts"
+        android:name="com.Malnutrition.ProblemOfMalnutrition.ui.Nuts.NutsFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_nuts" />
+
+    <fragment
+        android:id="@+id/nav_spices"
+        android:name="com.Malnutrition.ProblemOfMalnutrition.ui.Spices.SpicesFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_spices" />
+
+    <fragment
+        android:id="@+id/nav_legumes"
+        android:name="com.Malnutrition.ProblemOfMalnutrition.ui.Legumes.LegumesFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_legumes" />
+
+    <fragment
+        android:id="@+id/nav_fruits"
+        android:name="com.Malnutrition.ProblemOfMalnutrition.ui.Fruit.FruitsFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_fruits" />
+
+    <fragment
+        android:id="@+id/nav_sweets"
+        android:name="com.Malnutrition.ProblemOfMalnutrition.ui.sweets.SweetsFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_sweets" />
+
+    <fragment
+        android:id="@+id/nav_diary"
+        android:name="com.Malnutrition.ProblemOfMalnutrition.ui.diary.DiaryFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_diary" />
+
+    <fragment
+        android:id="@+id/nav_strachy"
+        android:name="com.Malnutrition.ProblemOfMalnutrition.ui.strachy.StrachyVegFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_strachy_veg" />
+
+    <fragment
+        android:id="@+id/nav_cereals"
+        android:name="com.Malnutrition.ProblemOfMalnutrition.ui.cereals.CerealsFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_cereals" />
+
+    <fragment
+        android:id="@+id/nav_exercise"
+        android:name="com.Malnutrition.ProblemOfMalnutrition.ui.exercise.ExerciseFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_exercise" />
+
+
+</navigation>

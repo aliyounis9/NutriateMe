@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/mobile_navigation"
+        android:layout_above="@id/bottom_nav"/>
+
+    <LinearLayout
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:background="#FFF"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/basket_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/basket"
+            android:text="Your Plate"
+            android:background="#FFF"
+            android:textSize="12sp"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textColor="#0A0A0A"
+            android:layout_weight="0.99"/>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_boorder22"/>
+
+        <Button
+            android:id="@+id/history_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:drawableStart="@drawable/history"
+            android:text="Your History"
+            android:background="#FFF"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#0A0A0A"
+            android:padding="16dp"
+            android:layout_weight="0.99"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

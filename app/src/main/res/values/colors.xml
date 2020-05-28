@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0A0A0A</color>
+    <color name="colorPrimaryDark">#0A0A0A</color>
+    <color name="colorAccent">#000000</color>
+    <color name="EditText_Hint_color">#87B4D1</color>
+    <color name="EditText_Main_color">#FFFFFF</color>
+    <color name="EditText_Shadow_color">#A5CFDB</color>
+    <color name="btn_background_color">#3BFFFFFF</color>
+    <color name="btn_Text_color">#FFFFFF</color>
+
+
+
+
+    <color name="df_transparent_black_background">#80000000</color>
+    <color name="whiteCardColor">#fff</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="blackTextColor">#000</color>
+
+    <dimen name="headerTextSize">22sp</dimen>
+    <dimen name="contentTextSize">16dp</dimen>
+
+</resources>

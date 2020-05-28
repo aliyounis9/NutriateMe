@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "239826871287",
+    "firebase_url": "https://problem-of-malnutrition.firebaseio.com",
+    "project_id": "problem-of-malnutrition",
+    "storage_bucket": "problem-of-malnutrition.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239826871287:android:d5fbde3a27886bff57c4f2",
+        "android_client_info": {
+          "package_name": "com.Malnutrition.ProblemOfMalnutrition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239826871287-bfguof45fggpa0dgdduf4uj0klqn46k9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Malnutrition.ProblemOfMalnutrition",
+            "certificate_hash": "11bf63715c42de28d513f9e46a483aec1b4c47a6"
+          }
+        },
+        {
+          "client_id": "239826871287-rh5t5d8imt66splo0jqv7854aj5snv3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Malnutrition.ProblemOfMalnutrition",
+            "certificate_hash": "94d503254964c203f2255c173e2b1db3f9c4a2d1"
+          }
+        },
+        {
+          "client_id": "239826871287-dnn7va2n5a1g9ldbgoki03i7eg0ttm04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtRm0ImWKZkxt45RKs5mb71L-xugvGjFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239826871287-dnn7va2n5a1g9ldbgoki03i7eg0ttm04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

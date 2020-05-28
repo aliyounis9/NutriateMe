@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:background="@drawable/nav_gradient2">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Your Meal \n   By Pressing On\n     The Button"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:id="@+id/bastxt"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="#A7A7A7"
+        android:fontFamily="@font/arial"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:id="@+id/horizont"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/bastxt"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="All Carbohydrates"
+                android:textColor="#8C2C6D"
+                android:textSize="11dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/allcarbo_basket"
+                android:maxLines="1"
+                android:layout_width="130dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:textSize="17sp"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:fontFamily="@font/arial"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="All Proteins"
+                android:textColor="#8C2C6D"
+                android:textSize="11dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/allprotein_basket"
+                android:maxLines="1"
+                android:layout_width="130dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:textSize="17sp"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:fontFamily="@font/arial"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="All Fats"
+                android:textColor="#8C2C6D"
+                android:textSize="11dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/allfat_basket"
+                android:maxLines="1"
+                android:layout_width="130dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:textSize="17sp"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:fontFamily="@font/arial"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:layout_below="@id/horizont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="62dp"
+        android:id="@+id/listview_basket"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/confirm_meal"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/nav_gradient5"
+        android:text="Confirm"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="#A77F0A" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:id="@+id/confirm_progressbar"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="#FFF"
+        android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+
+</RelativeLayout>

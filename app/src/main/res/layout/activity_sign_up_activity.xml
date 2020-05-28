@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".signUP_activity"
+    android:background="@drawable/signupdesign"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2.5"
+>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="7.5"
+    android:padding="8dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Username"
+        android:layout_marginBottom="3dp"
+        android:textColor="#8C2C6D"
+        android:textSize="12dp"
+        android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/name_ui_EditText"
+            android:layout_width="240dp"
+            android:layout_height="46dp"
+            android:hint="Enter Username"
+            android:textColor="#0A0A0A"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:padding="8dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Email"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#8C2C6D"
+        android:textSize="12dp"
+        android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/ui_EmailAddress_EditText_LoginActivity"
+            android:layout_width="240dp"
+            android:layout_height="46dp"
+            android:hint="Enter Email"
+            android:textColor="#0A0A0A"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:padding="8dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Password"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#8C2C6D"
+        android:textSize="12dp"
+        android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/ui_Password_EditText_LoginActivity"
+            android:layout_width="240dp"
+            android:layout_height="46dp"
+            android:hint="Enter Password"
+            android:textColor="#0A0A0A"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:padding="8dp"
+            android:password="true"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Phonenumber"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#8C2C6D"
+        android:textSize="12dp"
+        android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/phonenum_ui_EditText"
+            android:layout_width="240dp"
+            android:layout_height="46dp"
+            android:hint="Enter Phonenumber"
+            android:textColor="#0A0A0A"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:padding="8dp"
+            android:maxLength="13"
+            />
+
+    <Button
+        android:id="@+id/ui_signup_Button_ui"
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:text="Sign Up"
+        android:textColor="#FFF"
+        android:background="@drawable/edittext_boorder2"
+        android:fontFamily="@font/arial"
+        android:textAllCaps="false"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+    <ProgressBar
+        android:id="@+id/main_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>
+

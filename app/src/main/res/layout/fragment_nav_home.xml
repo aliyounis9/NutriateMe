@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:weightSum="10"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.Home.NavHomeFragment"
+    android:background="@drawable/navhomedesign"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_weight="1.8">
+    <TextView
+        android:id="@+id/main_screen_textbox_meal_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="( Meal : )"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="@font/opensans"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.2"
+        android:orientation="vertical"
+        android:id="@+id/li">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:id="@+id/welcomecard"
+        app:cardCornerRadius="28dp"
+        android:layout_below="@+id/editInfo_btn"
+        android:backgroundTint="#E1000000"
+        android:background="@mipmap/app2"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/welcome_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/arial"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:padding="6dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/welcome_bmi"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="BMI : "
+        android:textColor="#8C219E"
+        android:padding="4dp"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/welcome_weight"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Weight : \n"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"
+        android:padding="12dp"
+        />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/welcome_hieght"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Hiegth : \n"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:padding="12dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="38dp"
+            android:id="@+id/editInfo_btn"
+            android:text="Edit Profile"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_above="@id/li"
+            android:textColor="#FFF"
+            android:backgroundTint="#F0460B"
+            android:textAllCaps="false"
+            />
+
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/choose"
+        android:text="Choose What Do You Prefer"
+            android:textColor="#000000"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_below="@id/welcomecard"
+            android:layout_marginTop="5dp"
+            />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="8dp">
+
+        <Button
+        android:id="@+id/design_meal"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_boorder25"
+        android:backgroundTint="#D81855"
+        android:text="Design Your Meal"
+        android:textColor="#fff"
+        android:layout_margin="8dp"
+        android:padding="12dp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/instant_meal"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_boorder25"
+        android:backgroundTint="#76238D"
+        android:text="Or Instant Meal ?"
+        android:textColor="#fff"
+        android:layout_margin="8dp"
+        android:padding="12dp"
+        android:textAllCaps="false"
+        />
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

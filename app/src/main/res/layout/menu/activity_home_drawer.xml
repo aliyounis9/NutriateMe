@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hotdrinks"
+            android:icon="@drawable/coffee"
+            android:title="Hot Drinks" />
+        <item
+            android:id="@+id/nav_colddrinks"
+            android:icon="@drawable/drink"
+            android:title="Cold Drinks" />
+        <item
+            android:id="@+id/nav_meals"
+            android:icon="@drawable/meal"
+            android:title="Meals" />
+        <item
+            android:id="@+id/nav_sandwitches"
+            android:icon="@drawable/burger"
+            android:title="Sandwitches" />
+        <item
+            android:id="@+id/nav_sweets"
+            android:icon="@drawable/cupcake"
+            android:title="Sweets" />
+        <item
+            android:id="@+id/nav_entertainment"
+            android:icon="@drawable/popcorn"
+            android:title="Entertainment" />
+    </group>
+
+
+
+
+</menu>
