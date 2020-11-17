@@ -1,6 +1,6 @@
 # NutriateMe
 
-The aim of the application is to reduce the effects of malnutrition problems. 
+The aim of the application is to reduce the effects of malnutrition on human health. 
 
 The application analyzes the user's self-designed meals, suggesting potential warnings and edits to maximize dietary benefits and help
 avoid future diseases and recommending a healthy mix of nutrients per meal, which is consistent with the medical data the user entered 
@@ -8,9 +8,6 @@ in the application.
 
 In addition, an exercise section was recently added to the application, so that it could help users know the right way to practice
 specific exercises, like arm, chest, and leg workouts. 
-
-The application is, unfortunately, not AI-based, but that's what I am currently working on with my team to develop this app in the next
-couple of months using Machine Learning and Big Data.
 
 How to use it:
 1. Press Sign Up
